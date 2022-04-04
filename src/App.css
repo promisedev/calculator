@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.calc_cont{ width:100%; height:700px; background:rgb(1,9,0); font-weight:bold; font-family: arial;
+  text-align:center; display:flex; justify-content:center}
+.calc_body{width:35%; height:95%; background:#000; margin-top:0%; display:flex;
+flex-direction:column; position:relative; }
+.screen{width:100%; height:25%; background:#222; color:#fff; border-radius:0px 0px 25px 25px;
+display:flex; flex-direction:column; align-items:bottom;}
+.equation{width:90%; height:20%; font-size:30px; position:relative;overflow:hidden;
+  text-align:right; margin-top:13%; color:#fff;font-family: lucida, calibri, arial;}
+.result{width:90%; height:20%; font-size:20px;position:relative;overflow:hidden;
+  text-align:right; margin-top:5%; color:#666; font-family: lucida, calibri, arial;}
+/* /////////////////////////////////////////////////// */
+.buttons{width:100%; height:75%; background:#000;color:#fff; display:flex; flex-direction:column;
+  overflow:hidden; position:relative;}
+.buttons_item{width:95%; height:auto; display:flex;  }
+.btn1{ width:15%; height:40px; background:#000; border:none; margin-left:4%;
+  margin-top:2%}
+  .icon_opera{width:12px; height:12px}
+  .icon_exclema{width:3px; height:12px}
+
+.btn2{ width:24%; height:80px; background:#222; margin-left:3%; margin-top:2%; 
+  border-radius:40%; border:none; display:flex; align-items:center; justify-content:center;
+font-size:19px; color:#fff}
+.opera{ background:rgb(4,112,184); color:#000}
+.action{background:rgb(205, 208, 209); color:#000}
+.reset{background:rgb(189,242,136); color:#000; font-size:20px}
+.icon{width:21px; height:19px}
+.icon_del{width:29px; height:19px}
+.icon_dot{width:10px; height:10px}
+.icon_multi{width:12px; height:12px}
+.icon_minus{width:12px; height:12px}
+.icon_plus{width:12px; height:12px}
+.icon_div{width:12px; height:12px}
+.icon_equal{width:12px; height:12px}
